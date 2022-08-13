@@ -19,7 +19,8 @@ void setup() {
 
   Serial.begin(115200);
   Serial.println();
-
+  
+  pinMode(SENSOR, INPUT);
   pinMode(LED, OUTPUT);
   digitalWrite(LED, HIGH);
 
